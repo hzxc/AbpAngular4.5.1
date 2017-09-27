@@ -50,7 +50,7 @@ import { PaginatorModule } from 'primeng/primeng';
         NotificationsComponent,
         ChatBarComponent,
         ChatFriendListItem,
-        NotificationSettingsModalCompoent
+        NotificationSettingsModalCompoent,
     ],
     imports: [
         ngCommon.CommonModule,

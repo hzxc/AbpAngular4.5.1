@@ -8,6 +8,7 @@ import { UtilsModule } from '@shared/utils/utils.module';
 import { MainRoutingModule } from './main-routing.module';
 import { CountoModule } from '@node_modules/angular2-counto';
 import { EasyPieChartModule } from 'ng2modules-easypiechart';
+import { PhoneBookComponent } from './phone-book/phone-book.component';
 
 @NgModule({
     imports: [
@@ -23,7 +24,8 @@ import { EasyPieChartModule } from 'ng2modules-easypiechart';
         EasyPieChartModule
     ],
     declarations: [
-        DashboardComponent
+        DashboardComponent,
+        PhoneBookComponent,
     ]
 })
 export class MainModule { }

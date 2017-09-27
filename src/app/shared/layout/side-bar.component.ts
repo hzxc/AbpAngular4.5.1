@@ -33,7 +33,8 @@ export class SideBarComponent extends AppComponentBase {
             new SideBarMenuItem("Maintenance", "Pages.Administration.Host.Maintenance", "icon-wrench", "/app/admin/maintenance"),
             new SideBarMenuItem("Subscription", "Pages.Administration.Tenant.SubscriptionManagement", "icon-refresh", "/app/admin/subscription-management"),
             new SideBarMenuItem("Settings", "Pages.Administration.Host.Settings", "icon-settings", "/app/admin/hostSettings"),
-            new SideBarMenuItem("Settings", "Pages.Administration.Tenant.Settings", "icon-settings", "/app/admin/tenantSettings")
+            new SideBarMenuItem("Settings", "Pages.Administration.Tenant.Settings", "icon-settings", "/app/admin/tenantSettings"),
+            new SideBarMenuItem("PhoneBook", null, "icon-notebook", "/app/main/phonebook")
         ]),
         new SideBarMenuItem("DemoUiComponents", "Pages.DemoUiComponents", "icon-puzzle", "/app/admin/demo-ui-components"),
     ]);
