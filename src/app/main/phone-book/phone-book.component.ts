@@ -1,6 +1,7 @@
 import { Component, OnInit, Injector } from '@angular/core';
 import { AppComponentBase } from '@shared/common/app-component-base';
 import { appModuleAnimation } from '@shared/animations/routerTransition';
+import { PersonServiceProxy, PersonListDto, ListResultDtoOfPersonListDto } from '@shared/service-proxies/service-proxies';
 
 @Component({
   selector: 'app-phone-book',
