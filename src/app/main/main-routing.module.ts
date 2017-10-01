@@ -1,7 +1,6 @@
 ﻿import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { PhoneBookComponent } from 'app/main/phone-book/phone-book.component';
 
 @NgModule({
     imports: [
@@ -12,7 +11,6 @@ import { PhoneBookComponent } from 'app/main/phone-book/phone-book.component';
                     { path: 'dashboard', component: DashboardComponent, data: { permission: 'Pages.Tenant.Dashboard' } }
                 ]
             },
-            { path: 'phonebook', component: PhoneBookComponent }
         ])
     ],
     exports: [

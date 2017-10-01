@@ -8,7 +8,6 @@ import { UtilsModule } from '@shared/utils/utils.module';
 import { MainRoutingModule } from './main-routing.module';
 import { CountoModule } from '@node_modules/angular2-counto';
 import { EasyPieChartModule } from 'ng2modules-easypiechart';
-import { PhoneBookComponent } from './phone-book/phone-book.component';
 
 @NgModule({
     imports: [
@@ -25,7 +24,6 @@ import { PhoneBookComponent } from './phone-book/phone-book.component';
     ],
     declarations: [
         DashboardComponent,
-        PhoneBookComponent,
     ]
 })
 export class MainModule { }
